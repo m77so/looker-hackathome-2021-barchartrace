@@ -12,6 +12,6 @@ constant: VIS_ID {
 
 visualization: {
   id: "@{VIS_ID}"
-  file: "histogram.js"
+  url: "https://localhost:3443/myCustomViz.js"
   label: "@{VIS_LABEL}"
 }
