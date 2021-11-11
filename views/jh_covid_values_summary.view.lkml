@@ -19,7 +19,7 @@ view: jh_covid_values_summary {
         {% endif %} AS date,
           province_state,
           SUM(deaths_new_cases) AS death_new_cases,
-          SUM(deats) AS deaths,
+          SUM(deaths) AS deaths,
           SUM(confirmed) AS confirmed,
           SUM(confirmed_new_cases) AS confirmed_new_cases
         FROM `lookerdata.covid19_gcp_14day_predictions.jhu_covid_values`
