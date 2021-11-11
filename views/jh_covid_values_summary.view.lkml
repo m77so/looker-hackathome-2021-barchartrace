@@ -18,7 +18,7 @@ view: jh_covid_values_summary {
           date
         {% endif %} AS date,
           province_state,
-          SUM(deaths_new_cases) AS death_new_cases,
+          SUM(deaths_new_cases) AS deaths_new_cases,
           SUM(deaths) AS deaths,
           SUM(confirmed) AS confirmed,
           SUM(confirmed_new_cases) AS confirmed_new_cases
