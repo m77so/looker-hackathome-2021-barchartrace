@@ -1,12 +1,12 @@
 project_name: "bar-chart-race-sample"
 
 constant: VIS_LABEL {
-  value: "Histogram222"
+  value: "BarChartRace"
   export: override_optional
 }
 
 constant: VIS_ID {
-  value: "histogram-marketplace222"
+  value: "bar-chart-race"
   export:  override_optional
 }
 
