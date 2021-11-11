@@ -95,6 +95,11 @@ SELECT "Wyoming", "https://m77so.github.io/looker-hackathon-2021-js/us-h80/wy.pn
     sql: ${TABLE}.confirmed_new_cases ;;
   }
 
+  measure: image_url {
+    type: string
+    sql: MAX(${TABLE}.image_url) ;;
+  }
+
   dimension_group: date {
     type: time
     timeframes: [
@@ -118,14 +123,15 @@ SELECT "Wyoming", "https://m77so.github.io/looker-hackathon-2021-js/us-h80/wy.pn
     type: sum
     sql: ${TABLE}.deaths_new_cases ;;
   }
+
   measure: province_state_measure {
     type: string
-    sql:  ${province_state} ;;
+    sql:  STRING_AGG(${province_state}) ;;
   }
 
   dimension: province_state {
     type: string
-    sql: STRING_AGG(${TABLE}.province_state) ;;
+    sql:  ${TABLE}.province_state;;
   }
 
   dimension: confirmed_rn {
