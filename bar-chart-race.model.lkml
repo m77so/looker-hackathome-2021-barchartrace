@@ -5,3 +5,7 @@ include: "/views/*.view.lkml"                # include all views in the views/ f
 explore: jhu_covid_values {
   label: "JHU COVID"
 }
+
+explore: jh_covid_values_summary {
+  label: "JHU COVID Summary"
+}
