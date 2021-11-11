@@ -12,6 +12,6 @@ constant: VIS_ID {
 
 visualization: {
   id: "@{VIS_ID}"
-  url: "https://localhost:3443/myCustomViz.js"
+  file: "bar-chart-race.js"
   label: "@{VIS_LABEL}"
 }
