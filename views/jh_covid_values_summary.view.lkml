@@ -68,7 +68,7 @@ view: jh_covid_values_summary {
 
   dimension: province_state {
     type: string
-    sql: ${TABLE}.province_state ;;
+    sql: STRING_AGG(${TABLE}.province_state) ;;
   }
 
   dimension: confirmed_rn {
