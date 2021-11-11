@@ -13,7 +13,7 @@ SELECT "California", "https://m77so.github.io/looker-hackathon-2021-js/us-h80/ca
 SELECT "Colorado", "https://m77so.github.io/looker-hackathon-2021-js/us-h80/co.png" union all
 SELECT "Connecticut", "https://m77so.github.io/looker-hackathon-2021-js/us-h80/ct.png" union all
 SELECT "Delaware", "https://m77so.github.io/looker-hackathon-2021-js/us-h80/de.png" union all
-SELECT "District of Columbia", "https://m77so.github.io/looker-hackathon-2021-js/us-h80/dc.png" union all
+SELECT "District of Columbia", "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Flag_of_the_District_of_Columbia.svg/320px-Flag_of_the_District_of_Columbia.svg.png" union all
 SELECT "Florida", "https://m77so.github.io/looker-hackathon-2021-js/us-h80/fl.png" union all
 SELECT "Georgia", "https://m77so.github.io/looker-hackathon-2021-js/us-h80/ga.png" union all
 SELECT "Hawaii", "https://m77so.github.io/looker-hackathon-2021-js/us-h80/hi.png" union all
